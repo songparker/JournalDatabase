@@ -374,7 +374,7 @@ WHERE PAPER_ID = @PAP_ID
 END;
 GO
 
---For testing: this trigger is not done correctly, need to fix it
+--trigger
 /*a) If the reviewer num is still less than 2*/
 INSERT INTO PEER_REVIEW VALUES(48474,284,5,5,5,5,NULL,GETDATE());
 
